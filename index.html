@@ -6,21 +6,132 @@
     <title>Document</title>
     <style>
         /* Задание 1 */
-        #messageError{
+        /* #messageError{
             color: red;
             font-size: 100px;
             justify-content: center;
             display: flex;
-        }
+        } */
         /* Задание 1 */
+        /* Задание 2: */
+        /* form{
+            width: 225px;
+        }
+        .group-form{
+            display: flex;
+            justify-content: space-between;
+            margin: 2.5px;
+        } */
+        /* Задание 2: */
+        /* Задание 4: */
+        
+        /* table {
+            margin: 10px
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        td,
+        th {
+            padding: 8px;
+        } */
+    
+        /* Задание 4: */
+        /* Задание 5: */
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .task-list {
+            width: 500px;
+        }
+
+        #start-message {
+            margin: 10px;
+        }
+
+        .task {
+            display: flex;
+            align-items: center;
+            border: 1px solid gray;
+            padding: 3px 8px;
+            margin: 2px 10px;
+        }
+
+        .task p {
+            margin-left: 4px;
+        }
+
+        .completed {
+            background-color: green;
+            color: white;
+        }
+
+        .completed p {
+            text-decoration: line-through;
+        }
+
+        .input-panel {
+            width: 500px;
+            margin: 8px;
+            padding: 2px;
+        }
+
+        .input-panel button {
+            padding: 4px;
+            width: 25%;
+        }
+
+        .input-panel input {
+            height: 23px;
+            padding-left: 4px;
+            width: 68%;
+        }
+        /* Задание 5: */
     </style>
 </head>
 <body>
     <!-- Задание 1 -->
-    <button id="button1">Request</button>
+    <!-- <button id="button1">Request</button>
     <div id="output"></div>
-    <div id="messageError"></div>
+    <div id="messageError"></div> -->
     <!-- Задание 1 -->
+    <!-- Задание 2: -->
+    <!-- <form>
+        <div class="group-form">
+            <label for="">Title</label>
+            <input type="text" name="inputTitle" required>
+        </div>
+        <div class="group-form">
+            <label for="">Body</label>
+            <textarea name="body" id="body" cols="21" rows="5"></textarea>
+        </div>
+        <input type="button" id="formButton" value="Sand">
+    </form> -->
+    <!-- Задание 2: -->
+    <!-- Задание 4: -->
+    <!-- <table></table> -->
+    <!-- Задание 4: -->
+    <!-- Задание 5: -->
+    <div class="input-panel">
+        <input type="text" id="task-name-input">
+        <button id="add-task-btn">Add task</button>
+    </div>
+    <div class="input-panel">
+        <button id ="show-all-btn">Show all</button>
+        <button id="show-not-completed-btn">Not completed</button>
+    </div>
+    <div class="task-list"></div>
+    <!-- Задание 5: -->
     <script src="file.js"></script>
 </body>
 </html>
